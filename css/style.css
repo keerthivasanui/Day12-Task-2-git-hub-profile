@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(202, 210, 197) !important;
+  }
+  .navbar {
+    background-color: rgb(47, 61, 70);
+    letter-spacing: 3px;
+  }
+  .lhs {
+    height: 600px;
+    width: 300px;
+    background-color: rgb(53, 53, 53);
+    margin-top: 50px;
+    border-radius: 20px;
+  }
+  .bb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .rhsc {
+    height: 180px;
+    width: 100px;
+    margin: 20px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 20px;
+  }
+  
+  .rhs {
+    height: 180px;
+    width: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .rhs-search {
+    height: 50px;
+    width: 80%;
+    margin-top: 70px;
+    letter-spacing: 3px;
+    padding-left: 20px;
+    color: rgb(159, 159, 159);
+    background-color: rgb(53, 53, 53);
+    border-radius: 15px !important ;
+  }
+  ::placeholder {
+    color: rgb(159, 159, 159) !important;
+  }
